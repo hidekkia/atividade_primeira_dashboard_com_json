@@ -1,17 +1,17 @@
-.body {
+body {
     display: flex;
 }
 
-.body .chart1 {
+body .chart1 {
     display: flex;
     position: relative;
-    height:100vh;
-    width:40vw;
+    height:50vh;
+    width:50vw;
 }
 
-.body .chart2 {
+body .chart2 {
     display: flex;
     position: relative;
-    height:100vh;
-    width:40vw;
+    height:50vh;
+    width:50vw;
 }
