@@ -19,11 +19,11 @@
 </html>
 
 <script>
-  const ctx = document.getElementById('myChart');
+  const chart_temp_hum = document.getElementById('myChart');
 
-  const cts = document.getElementById('myChart2')
+  const chart_media = document.getElementById('myChart2')
 
-  new Chart(ctx, {
+  new Chart(chart_temp_hum, {
     type: 'line',
     data: {
       labels: ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00'],
@@ -51,7 +51,7 @@
     }
   });
 
-  new Chart(cts, {
+  new Chart(chart_media, {
     type: 'bar',
     data: {
       labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho'],
